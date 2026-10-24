@@ -53,7 +53,7 @@ public class BulletSpawner : MonoBehaviour
     private void Update()
     {
         spawnTimer++;
-        if (spawnTimer >= 200)
+        if (spawnTimer >= 50)
         {
             PooledBullet bullet = _pool.Get();
             bullet.transform.position = transform.position;
