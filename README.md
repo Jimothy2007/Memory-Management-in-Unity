@@ -31,6 +31,7 @@ I took four screenshots of my memory usage to monitor how well the object poolin
 - When running the program with bullets spawning every 200 frames, my memory usage was also 4.38 GB.
 - When running the program with bullets spawning every 100 frames, my memory usage was 5.16 GB.
 - When running the program with bullets spawning every 50 frames, my memory usage was 5.02 GB.
+
 This shows that the object pooling and texture allocations work great at minimizing memory usage because it barely increases the memory usage even after increasing the amount of bullets on screen.
 
 What I learned:
